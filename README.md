@@ -17,12 +17,13 @@ Thanh Vu, Madeline Schroeder
 6. Every voter can make sure that his vote has been taken into account in the final tabulation: votes and ID numbers are displayed at the end
 -------------------------------------------------------
 ### HOW-TO-RUN:
-Everything needed to run this project is contained in the included Python file.
-To run the simulation, compile and run the python file in an environment of your choice. After Clicking "run," you must type:
-	
-	main()
+<p align="justify">
+Everything needed to run this project is contained in the included Python file.  
+To run the simulation, compile and run the python file in an environment of your choice. After Clicking "run," you must type:  	</p>
 
-into the console, and press enter in order to begin the simulation.
+	main()
+  
+<p align="justify">into the console, and press enter in order to begin the simulation.</p>
 
 ### SIMULATION INSTRUCTIONS:
 #### Phase 1: Voting registration
@@ -37,11 +38,11 @@ Backend: secure transfer successful!
 
 Thank you for submitting SSN. Your validation number:  4503143659
 
-During this phase, the console will prompt the user to type a 9-digit social  
+<p align="justify"> During this phase, the console will prompt the user to type a 9-digit social  
 security number (this is a simulation, don't enter your real social security  
 number!). This number cannot start with a 0. By default, the simulation registers  
 3 voters. To change this, you may change the number of voters being registered in  
-the call to registerVoter() in main() (on line 314). For example for 5 voters:  
+the call to registerVoter() in main() (on line 314). For example for 5 voters:  </p>
 
 	registerVoter(5, voter_ssn_list)
 	
