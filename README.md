@@ -1,15 +1,17 @@
 Requires cryptography library DL instructions: https://cryptography.io/en/latest/
-
 -------------------------------------------------------
-PROJECT TITLE: Virtual Election Booth
-AUTHORS: Thanh Vu, Madeline Schroeder 
+
+# CS483 Final Project: Virtual Election Booth
+
+### PROJECT DESCRIPTION: 
+This project develops secure election protocol for voting with two central facilities. It simulates an online voting system in which users input their social security number, receive a validation number, create an identification number, and submit a vote. Identification numbers along with their corresponding votes are displayed as the election's results.
+
+
+CONTRIBUTORS: Thanh Vu, Madeline Schroeder 
 	(AES and RSA algorithms adapted from Practical Cryptography in Python)
+
 VERSION: 12 March, 2022
-PROJECT DESCRIPTION: This project develops secure election protocol for 
-voting with two central facilities. It simulates an online voting system in which users
-input their social security number, receive a validation number, create an identification
-number, and submit a vote. Identification numbers along with their corresponding votes
-are displayed as the election's results.
+
 
 HOW PROJECT REQUIREMENTS ARE FULFILLED:
 1. Only authorized voters can vote: We took in voter's social security number, and only people with valid SSN can vote
@@ -19,7 +21,7 @@ HOW PROJECT REQUIREMENTS ARE FULFILLED:
 5. No one can change anyone else's vote without being discovered: each vote is encrypted, so if a vote is changed the original vote won't match the new vote
 6. Every voter can make sure that his vote has been taken into account in the final tabulation: votes and ID numbers are displayed at the end
 -------------------------------------------------------
-HOW-TO-RUN:
+# HOW-TO-RUN:
 	Everything needed to run this project is contained in the included Python file.
 	To run the simulation, compile and run the python file in an environment of
 	your choice. After Clicking "run," you must type:
@@ -28,8 +30,8 @@ HOW-TO-RUN:
 	
 	into the console, and press enter in order to begin the simulation.
 
-SIMULATION INSTRUCTIONS:
-Phase 1: Voting registration
+# SIMULATION INSTRUCTIONS:
+## Phase 1: Voting registration
 	SAMPLE:
 	Without starting with 0, your 9-digit social security number: 123123123
 	Verify passed! (On failure, throw exception)
@@ -56,7 +58,7 @@ Phase 1: Voting registration
 	verified, then the program print "Verify passed! (On failure, throw exception)"
 	An exception is thrown if a signature cannot be verified. 
 	
-Phase 2: Voting Session
+## Phase 2: Voting Session
 	SAMPLE:
 	The voting session begins now.
 	---------------------------------------------
@@ -82,14 +84,14 @@ Phase 2: Voting Session
 	[ID 10], please input 1 / 01 for nominee 1 or 2 / 02 for nominee 2: 01
 	
 	Finally, a user casts their vote. Nominee 1 represents the Republican Party, and
-	nominee 2 represents the Democratic Party. After inputing their vote, this user
+	nominee 2 represents the Democratic Party. After inputting their vote, this user
 	should see the following message: 
 
 	Verify passed! (On failure, throw exception)
 	Backend: secure transfer successful!
 	Thank you [ID 10] for casting vote
 
-Phase 3: Results
+## Phase 3: Results
 	SAMPLE:
 	Voting session over. We are pleased to announce that:
 	Democratic Party has won
