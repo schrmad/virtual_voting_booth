@@ -1,4 +1,4 @@
-Requires cryptography libray DL instructions: https://cryptography.io/en/latest/
+Requires cryptography library DL instructions: https://cryptography.io/en/latest/
 
 -------------------------------------------------------
 PROJECT TITLE: Virtual Election Booth
