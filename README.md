@@ -103,3 +103,13 @@ ID: 12 | Vote: Democratic Party
 <p align="justify"> After all registered voters have voted, the results are displayed. This simulates  
 a user being able to check that their vote was counted.  
 Note: Requires cryptography library DL instructions: https://cryptography.io/en/latest/  </p>
+
+### TO-DO
+
+1. Change readme to html using hackMD
+
+2. Divide into main method and other smaller files
+
+3. Create sample data
+
+4. Connect to database
